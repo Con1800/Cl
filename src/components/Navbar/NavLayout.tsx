@@ -33,6 +33,7 @@ const NavLayout = () => {
           <ul className="hidden md:flex space-x-4">
             <li><Link to="/" className="text-white hover:bg-white rounded-3xl hover:text-black px-3 text-2xl">Home</Link></li>
             <li><Link to="/about" className="text-white hover:bg-white rounded-3xl hover:text-black px-3 text-2xl">About</Link></li>
+            <li><Link to="/dashboard" className="text-white hover:bg-white rounded-3xl hover:text-black px-3 text-2xl">Dashboard</Link></li>
           </ul>
           
         </div>
@@ -44,6 +45,7 @@ const NavLayout = () => {
                <ul>
                  <li className="hover:bg-blue-300 text-center rounded-3xl"><Link to='/' className="text-white" onClick={closeNav}>Home</Link></li>
                  <li className="hover:bg-blue-300 text-center rounded-3xl"><Link to='/about' className="text-white" onClick={closeNav}>About</Link></li>
+                 <li className="hover:bg-blue-300 text-center rounded-3xl"><Link to='/dashboard' className="text-white" onClick={closeNav}>Dashboard</Link></li>
                </ul>
              </div>
              </div>
